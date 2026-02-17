@@ -8,7 +8,7 @@ const button = document.querySelector('.change-color');
 const colorSpan = document.querySelector('.color');
 
 button.addEventListener('click', () => {
-  const newColor = getRandomHexColor();  // Генеруємо колір
-  document.body.style.backgroundColor = newColor; // Змінюємо фон
-  colorSpan.textContent = newColor; // Виводимо колір у спан
+  const newColor = getRandomHexColor();  
+  document.body.style.backgroundColor = newColor;
+  colorSpan.textContent = newColor; 
 });
